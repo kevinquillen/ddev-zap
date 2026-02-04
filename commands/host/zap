@@ -1,0 +1,14 @@
+#!/bin/bash
+
+## #ddev-generated: If you want to edit and own this file, remove this line.
+## Description: Launch ZAP (OWASP Zed Attack Proxy) Web GUI
+## Usage: zap
+## Example: "ddev zap"
+
+echo "Opening ZAP Web GUI..."
+echo ""
+echo "To scan your DDEV site from within ZAP, use this target URL:"
+echo "  https://web"
+echo ""
+
+ddev launch :8080/zap
